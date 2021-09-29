@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Выбираем жильё в Седоне: гостиницы, мотели, апартаменты</title>
   </head>
   <body>
     <header class="page-header">
@@ -15,7 +15,7 @@
 		     <a class="navigation-item" href="#">О Седоне</a>
 		   </li>
 		   <li class="navigation-item">
-		     <a class="navigation-item" href="#">Гостиницы</a>
+		     <a class="navigation-item navigation-linkcurrent" href="#">Гостиницы</a>
 		   </li>
 		 </ul>
 	   </nav>
@@ -46,11 +46,123 @@
 	</header>
 	 
     <main class="hotels">
+	  
+	  <section class="choice">
+	    <h1>Гостиницы Седоны</h1>
+		<form class="choise-hotels" action="https://echo.htmlacademy,ru/" method="post">
+		  <fieldset>
+		    <legend>Инфраструктура:</legend>
+			  <label>
+			    <input type="checkbox" name="swimming" checked>Бассейн
+			  </label>
+			  <label>
+			    <input type="checkbox" name="parking" checked>Парковка
+			  </label>
+			  <label>
+			    <input type="checkbox" name="wi-fi">Wi-Fi
+			  </label>
+		  </fieldset>
+		  <fieldset>
+		    <legend>Тип жилья:</legend>
+			  <label>
+			    <input type="radio" name="housing" value="hotel" checked>Гостиница
+			  </label>
+			  <label>
+			    <input type="radio" name="housing" value="motel">Мотель
+			  </label>
+			  <label>
+			    <input type="radio" name="housing" value="apartments">Апартаменты
+			  </label>
+		  </fieldset>
+		  <fieldset>
+		    <legend>Стоимость, ₽:</legend>
+			  <input type="number" name="min-price" placeholder="0">
+			  <input type="number" name="max-price" placeholder="900">
+			  <input type="range" min="0" max="900" name="price">
+		  </fieldset>
+		  <button class="button" type="submit">Применить</button> 
+		  <button class="reset" type="submit">Применить</button> 
+		</form>
+	  </section>
+	  
+	  <section class="selected">
+	  <h2 class="visuality-hidden">результаты выбора</h2>
+	    <span class="selected-title"> Найдено гостиниц: 38></span>
+		<button class="select">Сначала дешевые</button>
+	  </section>	
+		  
+	  <section class="selected-housing">
+	    <h3>Amara Resort & Spa</h3>
+		<img class="housing" src="" alt="Amara Resort & Spa">
+		<span class="type">Гостиница<span>
+		<span class="cost">От 4000 ₽<span>
+		<span class="rating">рейтинг: 8,5</span>
+		<button class="button-selected">подробнее</button>
+		<button class="button-selected">в избранное</button>
+	  </section>
+	  
+	  <section class="selected-housing">
+	    <h3>Desert Quail Inn</h3>
+		<img class="housing" src="" alt="Desert Quail Inn">
+		<span class="type">Мотель<span>
+		<span class="cost">От 3000 ₽<span>
+		<span class="rating">рейтинг: 8,9</span>
+		<button class="button-selected">подробнее</button>
+		<button class="button-selected">в избранное</button>
+	  </section>
+	  
+	  <section class="selected-housing">
+	    <h3>Villas at Poco Diablo</h3>
+		<img class="housing" src="" alt="Villas at Poco Diablo">
+		<span class="type">Апартаменты<span>
+		<span class="cost">От 4000 ₽<span>
+		<span class="rating">рейтинг: 9,2</span>
+		<button class="button-selected">подробнее</button>
+		<button class="button-selected button-selected-current">в избранном</button>
+	  </section>
+	  
+	  <section class="selected-housing">
+	    <h3>GreenTree Inn</h3>
+		<img class="housing" src="" alt="GreenTree Inn">
+		<span class="type">Гостиница<span>
+		<span class="cost">От 3000 ₽<span>
+		<span class="rating">рейтинг: 9,2</span>
+		<button class="button-selected" type="button">подробнее</button>
+		<button class="button-selected" type="button">в избранное</button>
+	  </section>
+	  
+	  <button class="button button-add" type="button">загрузить еще</button>
+	  
+	  <ul class="pagination">
+	    <li class="pagination-item">
+		  <a class="pagination-link pagination-current">1</a>
+		</li>
+	    <li class="pagination-item">
+		  <a class="pagination-link">2</a>
+		</li>
+	    <li class="pagination-item">
+		  <a class="pagination-link">3</a>
+		</li>
+	    <li class="pagination-item">
+		  <a class="pagination-link">4</a>
+		</li>
+	    <li class="pagination-item">
+		  <a class="pagination-link">…</a>
+		</li>
+	    <li class="pagination-item">
+		  <a class="pagination-link">10</a>
+		</li>
+	  </ul>
+	  
+	  <button class="select">Гостиниц на странице:</button>
+	    <span>4</span>
+
+	  
 	
 	  
-      <section class="mailing">	  
+      <section class="mailing mailing-hotels">	  
 	    <h2 class="visuality-hidden">рассылка</h2>
-		<b>подпишитесь на рассылку<b>
+		<span>подпишитесь на рассылку</span>
 		<p>
 		  Только полезная информация и никакого спама,<br>честное бойскаутское!
         </p>
