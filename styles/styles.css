@@ -43,5 +43,25 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #242424;
-  background-color: #FBF7F4;
+  background-color: #ffffff;
 }
+.button {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700;
+}
+
+/*header-page*/
+.navigation-link {
+	font-size:  20px;
+	line-height: 26px;
+	font-weight: 700;
+	color: inherit;
+}
+.button-nav   /* надо ли ??*/
+/*main*/
+
+
+
+
+
