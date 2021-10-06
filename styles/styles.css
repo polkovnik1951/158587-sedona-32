@@ -43,7 +43,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #242424;
-  background-color: #ffffff;
+  background-color: #E5E5E5;
 }
 .button {
 	font-size: 21px;
@@ -51,17 +51,47 @@ body {
 	font-weight: 700;
 }
 
-/*header-page*/
+/*хедер*/
+.page-header  {
+	background-color: #ffffff;
+}
 .navigation-link {
-	font-size:  20px;
+	font-size: 20px;
 	line-height: 26px;
 	font-weight: 700;
 	color: inherit;
 }
 .button-nav   /* надо ли ??*/
+
 /*main*/
 
-
+.index {
+	background-color: #ffffff;
+}
+.upper-text {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: :uppercase;
+}
+.bottom-text {
+	font-size: 22px;
+	line-height: 36px;
+}
+/*преимущества*/
+.abaut-foto	{
+	color: #ffffff;
+}
+.advantages-item {
+	font-size: 18px;
+	line-height: 21px;
+}
+.page-header {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+	text-transform: :uppercase;
+}
 
 
 
