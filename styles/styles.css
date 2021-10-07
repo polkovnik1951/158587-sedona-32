@@ -46,11 +46,28 @@ body {
   background-color: #E5E5E5;
 }
 .button {
-	font-size: 21px;
-	line-height: 21px;
+	color: #ffffff;
+	background-color: #756257;
 	font-weight: 700;
 }
-
+.button-nav {
+	font-size: 21px;
+	line-height: 21px;
+	background-color: #756257;
+	}
+.button-hotels {
+	font-size: 20px;
+	line-height: 36px;
+	background-color: #756257;
+}
+.button-mailing {
+	font-size: 20px;
+	line-height: 26px;
+	background-color: #83B3D3;
+}
+ul {
+	list-style: none;
+}
 /*хедер*/
 .page-header  {
 	background-color: #ffffff;
@@ -61,26 +78,27 @@ body {
 	font-weight: 700;
 	color: inherit;
 }
-.button-nav   /* надо ли ??*/
 
-/*main*/
+/*main-index*/
 
-.index {
+.index,
+ .page-footer {
 	background-color: #ffffff;
 }
 .upper-text {
 	font-size: 30px;
 	line-height: 36px;
 	font-weight: 700;
-	text-transform: :uppercase;
+	text-transform: uppercase;
 }
 .bottom-text {
 	font-size: 22px;
 	line-height: 36px;
 }
 /*преимущества*/
-.abaut-foto	{
+.with-foto	{
 	color: #ffffff;
+	background-color: #83B3D3;
 }
 .advantages-item {
 	font-size: 18px;
@@ -90,8 +108,47 @@ body {
 	font-size: 24px;
 	line-height: 28px;
 	font-weight: 700;
-	text-transform: :uppercase;
+}
+.hotels-description {
+	font-size: 22px;
+	line-height: 26px;
+}
+.button-hotels {
+	font-size: 20px;
+	line-height: 36px;
+	color: #ffffff;
+}
+.bottom-text-mailing {
+	font-size: 22px;
+	line-height: 26px;
+	color: #ffffff;
+}
+.mailing {
+	background-image: url("images/nature.jpg");
+	background-size: 1200px auto;
+	background-repeat: no-repeat;
+}
+/*main-hotels*/
+.choice {
+	color: #ffffff;
+}
+.page-title-hotels {
+	font-size: 60px;
+	line-height:: 77px;
+	font-weight: 700;
+}
+.choice {
+	background-image: url("images/nature-catalog.jpg");
+	background-size: 1200px auto;
+	background-repeat: no-repeat;
 }
 
-
-
+/*футер*/
+.contact-tel {
+	font-size: 40px;
+	line-height: 40px;
+}
+.breadrumbs-text {
+	font-size: 16px;
+	line-height: 21px;
+}

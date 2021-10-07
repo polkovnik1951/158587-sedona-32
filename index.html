@@ -10,18 +10,18 @@
 	   <nav class="navigation">
 	     <ul class="navigation-lict">
 		   <li class="navigation-item">
-		     <a class="navigation-item" href="#">Главная</a>
+		     <a class="navigation-link" href="#">Главная</a>
 		   </li>
 		   <li class="navigation-item">
-		     <a class="navigation-item" href="#">О Седоне</a>
+		     <a class="navigation-link" href="#">О Седоне</a>
 		   </li>
 		   <li class="navigation-item">
-		     <a class="navigation-item" href="hotels.html">Гостиницы</a>
+		     <a class="navigation-link" href="hotels.html">Гостиницы</a>
 		   </li>
 		 </ul>
 	   </nav>
 	   
-	   <a href="#"><img class="logo" src="" alt="Логотип города Седона"></a><!--логотип-->
+	   <a href="#"><img class="logo" src="images/logo.svg" width="138" height="70 alt="Логотип города Седона"></a><!--логотип-->
 	   
 	   <nav class="navigation">
 	     <ul class="navigation-lict navigation-user">
@@ -50,15 +50,15 @@
 	
 	 <section class="invitation-to-sedona">
 	   <h2 class="visuality-hidden">Приглашение</h2>
-       <img class="invitation" src="" alt="Природа в Седоне">
+       <img class="invitation" src="images/welcome-background.jpg" width="1200" height="485" alt="Природа в Седоне">
 	 </section>
 	 
-	 <section class="sedona-info"> 
+	<section class="sedona-info"> 
 	   <h1 class="visuality-hidden">Седона</h1>
 	   <span class="upper-text">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</span>
 	   <span class="bottom-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</span>
 	   
-	   <section class="sedona-info advantages abaut-foto">
+	   <section class="sedona-info advantages with-foto">
 	     <h2>Преимущества</h2>
 	     <ul class="adventages-list">
 	       <li class="adventages-item">
@@ -71,7 +71,7 @@
 		     </p>
 		   </li>
 		   <li class="adventute-item">
-		     <img class="adventages-item adventure-img" src="" alt="Кафе в городке">
+		     <img class="adventages-item adventure-img" src="images/sedona-town.jpg" width="800" height="384" alt="Кафе в городке">
 		   </li>
 		 </ul>
 	   </section> 
@@ -100,10 +100,10 @@
 		  </ul>
        </section>
 	   
-       <section class="sedona-info advantages abaut-foto">
+       <section class="sedona-info advantages with-foto">
          <ul class="adventages-list abaut-foto">	   
            <li class="adventute-item">
-		     <img class="adventages-item adventure-img" src="" alt="Мост дьявола">
+		     <img class="adventages-item adventure-img" src="images/bridge.jpg" width="800" height="384" alt="Мост дьявола">
 		   </li>
            <li class="adventages-item">
 		     <h3 class="adventages-title">там есть<br>мост дьявола</h3>
@@ -114,6 +114,9 @@
 		       Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется
 		     </p>
 		   </li>
+	   </section>
+       <section class="sedona-info advantages">
+	     <ul class="adventages-list">
            <li class="adventages-item">
 		     <h3 class="adventages-title">небольшая<br>площадь</h3>
 		     <span class="advantages-number">
@@ -143,26 +146,26 @@
 		   </li>
 	     </ul>
 	   </section>
-	  </section> 
-	  <section class="hotels">
+	 </section> 
+	 <section class="hotels">
 	    <h2 class="visuality-hidden">Гостиницы</h2>
-		<span class="hotels-title">заинтересовались?<span>
-		<p>
+		<span class="hotels-title upper-text">заинтересовались?</span>
+		<span class="hotels-description">
 		  Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
-        </p>
-		<a class="button button-hotels" href="hotels.html">Хочу сюда!</a>
+        </span>
+		<a class="button button-hotels" href="hotels.html">поиск гостиницы в седоне</a>
       </section>
 	  
       <section class="mailing">	  
 	    <h2 class="visuality-hidden">рассылка</h2>
-		<span>подпишитесь на рассылку</span>
-		<p>
+		<span class="upper-text">подпишитесь на рассылку</span>
+		<span class="bottom-text-mailing">
 		  Только полезная информация и никакого спама,<br>честное бойскаутское!
-        </p>
+        </span>
 		<address>
 		  <form class="e-mail" action="https://echo.htmlacademy,ru/" method="post">
 		    <input type="email" name="mail" placeholder="Ваш e-mail">
-			<button class="button button-mail" type="submit">подписаться</button>
+			<button class="button button-mailing" type="submit">подписаться</button>
 		  </form>
 		</address>
       </section>
