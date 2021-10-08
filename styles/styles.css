@@ -80,7 +80,21 @@ ul {
 }
 
 /*main-index*/
+/*      ВСЁ ЭТО ПОЧЕМУ ТО НЕ РАБОТАЛО!?
+.invitation-to-sedona::before {
+	content: <img src="images/welcome-1.svg" width="188" height="45" alt="">
+}
+.invitation-to-sedona::after {
+	content: <img src="images/welcome-4.svg" width="1200" height="57" alt="">
+}
 
+.invitation-to-sedona: {
+	background-image: url("images/welcome-background.jpg");
+    background-size: 1200px 485px;
+	background-repeat: no-repeat;
+	
+}
+*/
 .index,
  .page-footer {
 	background-color: #ffffff;
