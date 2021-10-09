@@ -94,13 +94,21 @@ ul {
 	font-size: 22px;
 	line-height: 36px;
 }
-.sedona-info {
+.sedona-info,
+.hotels,
+.mailing {
 	text-align: center;
 }
 /*преимущества*/
 .with-foto	{
 	color: #ffffff;
 	background-color: #83B3D3;
+}
+.background-1 {
+	background-color: rgba(131, 179, 211, 0.12);
+}
+.background-2 {
+	background-color: rgba(131, 179, 211, 0.2);
 }
 .advantages-item {
 	font-size: 18px;
@@ -137,7 +145,7 @@ ul {
 }
 .page-title-hotels {
 	font-size: 60px;
-	line-height:: 77px;
+	line-height: 77px;
 	font-weight: 700;
 }
 .choice {
