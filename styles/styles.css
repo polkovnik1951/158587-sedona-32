@@ -94,6 +94,9 @@ ul {
 	font-size: 22px;
 	line-height: 36px;
 }
+.invitation-to-sedona::after {
+	content: "<img src="images/welcome-4.svg" width="1200" height="57" alt="">";
+}
 .sedona-info,
 .hotels,
 .mailing {
