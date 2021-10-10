@@ -94,9 +94,21 @@ ul {
 	font-size: 22px;
 	line-height: 36px;
 }
-.invitation-to-sedona::after {
-	content: "<img src="images/welcome-4.svg" width="1200" height="57" alt="">";
+.invitation-to-sedona {
+	background-image: url("images/welcome-background.jpg");
+	background-size: 1200px 485px;
+	
 }
+
+/*                             Почему то не работает!
+.invitation-to-sedona::after {
+	content: url("images/welcome-4.svg");
+	display: block;
+	width: 1200px;
+	height: 57px;
+	background-color: green;
+}
+*/
 .sedona-info,
 .hotels,
 .mailing {
