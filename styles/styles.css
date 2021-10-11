@@ -95,20 +95,10 @@ ul {
 	line-height: 36px;
 }
 .invitation-to-sedona {
-	background-image: url("images/welcome-background.jpg");
+	background-image: url("/images/welcome-background.jpg");
 	background-size: 1200px 485px;
-	
+	background-repeat: no-repeat;
 }
-
-/*                             Почему то не работает!
-.invitation-to-sedona::after {
-	content: url("images/welcome-4.svg");
-	display: block;
-	width: 1200px;
-	height: 57px;
-	background-color: green;
-}
-*/
 .sedona-info,
 .hotels,
 .mailing {
