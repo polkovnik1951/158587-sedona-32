@@ -99,7 +99,8 @@ ul {
 .invitation-to-sedona {
 	width:1200px;
 	height: 485px;
-	background-image: url("images/welcome-background.jpg");
+	background-color: green;
+	background-image: url("../images/welcome-background.jpg");
 	background-color: green;
 	background-size: 1200px 485px;
 	background-repeat: no-repeat;
@@ -124,6 +125,9 @@ ul {
 	font-size: 18px;
 	line-height: 21px;
 }
+
+/*вторая страницв    -  гостиницы*/
+
 .page-header {
 	font-size: 24px;
 	line-height: 28px;
@@ -144,7 +148,7 @@ ul {
 	color: #ffffff;
 }
 .mailing {
-	background-image: url("images/nature.jpg");
+	background-image: url("../images/nature.jpg");
 	background-size: 1200px auto;
 	background-repeat: no-repeat;
 }
@@ -152,16 +156,19 @@ ul {
 /*main-hotels*/
 .choice {
 	color: #ffffff;
+	background-image: url("../images/hotels-background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 .page-title-hotels {
 	font-size: 60px;
 	line-height: 77px;
 	font-weight: 700;
 }
-.choice {
-	background-image: url("images/nature-catalog.jpg");
-	background-size: 1200px auto;
-	background-repeat: no-repeat;
+.breadrumbs-link {
+	font-size: 16px;
+	line-height: 21px;
+	color: inherit;
 }
 
 /*футер*/

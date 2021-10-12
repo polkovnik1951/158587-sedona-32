@@ -21,20 +21,20 @@
 		 </ul>
 	   </nav>
 	   
-	   <a href="index.html"><img class="logo" src="" alt="Логотип города Седона"></a><!--логотип-->
+	   <a href="#"><img class="logo" src="images/logo.svg" width="138" height="70" alt="Лотип города Седона"></a><!--логотип-->
 	   
 	   <nav class="navigation">
 	     <ul class="navigation-lict navigation-user">
 		   <li class="navigation-item">
 		     <a class="navigation-link" href="#">
-			   <span class="visuality-hidden"><!--В макете слова ПОИСК нет, это для скринридеров, потм добавим иконку сюда. На лайве так было. -->
+			   <span class="visuality-hidden">
 			     Поиск
 			   </span>	 
 			 </a>
 		   </li>
 		   <li class="navigation-item">
 		     <a class="navigation-link" href="#">
-			   <span class="visuality-hidden"><!--В макете слов В ИЗБРАННОЕ нет, это для скринридеров, потм добавим иконку сюда. На лайве так было. -->
+			   <span class="visuality-hidden">
 			     В избранное
 			   </span>	 
 			 </a>
@@ -51,12 +51,15 @@
 	  <section class="choice">
 	    <h1 class="page-title-hotels">Гостиницы Седоны</h1>
 		<ul class="breadrumbs">
-		  <li class="breadrumbs-item>"
+		  <li class="breadrumbs-item>">
 		    <a class="breadrumbs-link" href="index.html">
 			  <span class="visuality-hidden">
 			    Главная
+			  </span>
 			  <span>
-            </a>			  
+			   <img class="breadrumbs-to-index" src="images/icon-hotels-to-index.svg" width="12" height="12" alt="ссылка на главную">
+			  </span>
+            </a>	  
 		  </li>
 		  <li class="breadrumbs-item">
 		     <a class="breadrumbs-link" href="#">
@@ -104,15 +107,15 @@
 	  
 	  <section class="selected">
 	  <h2 class="visuality-hidden">результаты выбора</h2>
-	    <span class="selected-title"> Найдено гостиниц: 38></span>
+	    <span class="selected-title"> Найдено гостиниц: 38</span>
 		<button class="select">Сначала дешевые</button>
 	  </section>	
 		  
 	  <section class="selected-housing">
 	    <h3>Amara Resort & Spa</h3>
 		<img class="housing" src="images/catalog/hotel-amara.jpg" width="180" height="120" alt="Amara Resort & Spa">
-		<span class="type">Гостиница<span>
-		<span class="cost">От 4000 ₽<span>
+		<span class="type">Гостиница</span>
+		<span class="cost">От 4000 ₽</span>
 		<span class="rating">рейтинг: 8,5</span>
 		<button class="button-selected">подробнее</button>
 		<button class="button-selected">в избранное</button>
@@ -121,8 +124,8 @@
 	  <section class="selected-housing">
 	    <h3>Desert Quail Inn</h3>
 		<img class="housing" src="images/catalog/hotel-desert.jpg" width="180" height="120" alt="Desert Quail Inn">
-		<span class="type">Мотель<span>
-		<span class="cost">От 3000 ₽<span>
+		<span class="type">Мотель</span>
+		<span class="cost">От 3000 ₽</span>
 		<span class="rating">рейтинг: 8,9</span>
 		<button class="button-selected">подробнее</button>
 		<button class="button-selected">в избранное</button>
@@ -131,8 +134,8 @@
 	  <section class="selected-housing">
 	    <h3>Villas at Poco Diablo</h3>
 		<img class="housing" src="images/catalog/hotel-villas.jpg" width="180" height="120" alt="Villas at Poco Diablo">
-		<span class="type">Апартаменты<span>
-		<span class="cost">От 4000 ₽<span>
+		<span class="type">Апартаменты</span>
+		<span class="cost">От 4000 ₽</span>
 		<span class="rating">рейтинг: 9,2</span>
 		<button class="button-selected">подробнее</button>
 		<button class="button-selected button-selected-current">в избранном</button>
@@ -141,8 +144,8 @@
 	  <section class="selected-housing">
 	    <h3>GreenTree Inn</h3>
 		<img class="housing" src="images/catalog/hotel-green.jpg" alt="GreenTree Inn">
-		<span class="type">Гостиница<span>
-		<span class="cost">От 3000 ₽<span>
+		<span class="type">Гостиница</span>
+		<span class="cost">От 3000 ₽</span>
 		<span class="rating">рейтинг: 9,2</span>
 		<button class="button-selected" type="button">подробнее</button>
 		<button class="button-selected" type="button">в избранное</button>
@@ -194,8 +197,7 @@
 	</main>
 	
 		<footer class="page-footer">
-	
-	  <section class="footer-social">
+	     	  <section class="footer-social">
 	    <h2 class="visuality-hidden">Социальные сети</h2>
 	    <ul class="footer-social-list">
 		  <li class="footer-social-item">
@@ -218,8 +220,8 @@
 	  </section>
 	  
 	  <section class="footer-contacts">
+	  <h2 class="visuality-hidden">Контактный телефон</h2>
 	    <address class="footer-contacts-phonee">
-	      <h2 class="visuality-hidden">Контактный телефон</h2>
           <a class="contact-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </address> 		  
 	  </section>
@@ -227,9 +229,10 @@
 	  <section class="footer-logo">
 	    <h2 class="visuality-hidden">Разработчик сайта</h2>
 		<a class="htmlacademy-link" href="https://htmlacademy.ru">
-          <img class="footer-logo" src="images/icon-htmlacademy.svg" width="16" height="11" alt="логотип разработчика сайта">
+          <img class="footer-logo" src="images/icon-htmlacademy.svg" width="115" height="33" alt="логотип разработчика сайта">
        </a> 		  
 	  </section>
+
 	  
 	</footer>
  	
