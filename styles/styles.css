@@ -44,6 +44,8 @@ body {
   line-height: 24px;
   color: #242424;
   background-color: #E5E5E5;
+  width: 1280px;
+  margin: 0 auto;
 }
 .button {
 	color: #ffffff;
@@ -95,7 +97,10 @@ ul {
 	line-height: 36px;
 }
 .invitation-to-sedona {
-	background-image: url("/images/welcome-background.jpg");
+	width:1200px;
+	height: 485px;
+	background-image: url("images/welcome-background.jpg");
+	background-color: green;
 	background-size: 1200px 485px;
 	background-repeat: no-repeat;
 }
