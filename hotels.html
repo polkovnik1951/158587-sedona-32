@@ -46,10 +46,11 @@
 	   </nav>
 	</header>
 	 
-    <main class="hotels">
+    <main class="main-htels">
+	  <h1 class="page-title-hotels">Гостиницы Седоны</h1>
 	  
 	  <section class="choice">
-	    <h1 class="page-title-hotels">Гостиницы Седоны</h1>
+	  <h2 class="visuality-hidden">Переход на главную страницу</h2>
 		<ul class="breadrumbs">
 		  <li class="breadrumbs-item>">
 		    <a class="breadrumbs-link" href="index.html">
@@ -62,14 +63,16 @@
             </a>	  
 		  </li>
 		  <li class="breadrumbs-item">
-		     <a class="breadrumbs-link" href="#">
+		     <a class="breadrumbs-link">
 			   <span class="breadrumbs-text">
 			     Гостиницы
 			   </span>	 
 			 </a>
 		   </li>
 		</ul>
-		<form class="choise-hotels" action="https://echo.htmlacademy,ru/" method="post">
+		<section class="choice-user">
+		 <h2 class="visuality-hidden">Выбор по параметрам</h2>
+		 <form class="choise-hotels" action="https://echo.htmlacademy,ru/" method="post">
 		  <fieldset>
 		    <legend>Инфраструктура:</legend>
 			  <label>
@@ -102,11 +105,13 @@
 		  </fieldset>
 		  <button class="button" type="submit">Применить</button> 
 		  <button class="reset" type="submit">Сбросить</button> 
-		</form>
-	  </section>
-	  
+		 </form>
+	  </section>	
+	</section>
+	<section class="hotels-all">
+    <h2 class="visuality-hidden">Выбор гостиницы</h2>	
 	  <section class="selected">
-	  <h2 class="visuality-hidden">результаты выбора</h2>
+	  <h3 class="visuality-hidden">результаты выбора</h3>
 	    <span class="selected-title"> Найдено гостиниц: 38</span>
 		<button class="select">Сначала дешевые</button>
 	  </section>	
@@ -152,8 +157,10 @@
 	  </section>
 	  
 	  <button class="button button-add" type="button">загрузить еще</button>
-	  
-	  <ul class="pagination">
+	</section>
+    <section class="pgination">
+     <h2 class="visuality-hidden">Пагинация</h2>	
+	  <ul class="pagination-list">
 	    <li class="pagination-item">
 		  <a class="pagination-link pagination-current">1</a>
 		</li>
@@ -176,10 +183,7 @@
 	  
 	  <button class="select" type="button">Гостиниц на странице:</button>
 	    <span>4</span>
-
-	  
-	
-	  
+	 </section> 
       <section class="mailing mailing-hotels">	  
 	    <h2 class="visuality-hidden">рассылка</h2>
 		<span>подпишитесь на рассылку</span>
@@ -233,7 +237,6 @@
        </a> 		  
 	  </section>
 
-	  
 	</footer>
  	
   </body>

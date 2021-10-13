@@ -10,7 +10,7 @@
 	   <nav class="navigation">
 	     <ul class="navigation-lict">
 		   <li class="navigation-item">
-		     <a class="navigation-link" href="#">Главная</a>
+		     <a class="navigation-link navigation-linkcurrent">Главная</a>
 		   </li>
 		   <li class="navigation-item">
 		     <a class="navigation-link" href="#">О Седоне</a>
@@ -23,7 +23,7 @@
 	   
 	   <a href="#"><img class="logo" src="images/logo.svg" width="138" height="70" alt="Лотип города Седона"></a><!--логотип-->
 	   
-	   <nav class="navigation">
+	   <nav class="navigation-user">
 	     <ul class="navigation-lict navigation-user">
 		   <li class="navigation-item">
 		     <a class="navigation-link" href="#">
@@ -48,7 +48,8 @@
 	   </nav>
 	</header>
 	 
-    <main class="index">
+    <main class="main-index">
+	   <h1 class="visuality-hidden">Седона: Достопримечательности, преимущества и условия жизни в городе</h1> 
 	
 	 <section class="invitation-to-sedona">
 	   <h2 class="visuality-hidden">Приглашение</h2>
@@ -59,7 +60,7 @@
 	 </section>
 	 
 	<article class="sedona-info">
-	  <h1 class="visuality-hidden">Седона: Достопримечательности, преимущества и условия жизни в городе</h1>
+	  <h2 class="visuality-hidden">Всё о Седоне</h2>
 	  <header class="article-header">
 	   <span class="upper-text">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!<br></span>
 	   <span class="bottom-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</span>
@@ -105,14 +106,12 @@
 		   </li>
 		  </ul>
        </section>
-	   
-	   <h2 class="visuality-hidden">Преимущества</h2>
-	   <img class="img-main" src="images/bridge.jpg" width="800" height="384" alt="Мост дьявола">
-       
 	   <section class="sedona-info-item with-foto">
+	     <h2 class="visuality-hidden">Преимущества</h2>
+	     <img class="img-main" src="images/bridge.jpg" width="800" height="384" alt="Мост дьявола">
          <ul class="adventages-list width-foto">	   
            <li class="adventages-item">
-		     <h3 class="adventages-title">там есть<br>мост дьявола</h3>
+		     <span class="adventages-title">там есть<br>мост дьявола</span>
 		     <span class="advantages-number">
 		       — №2 —
 		     </span>
@@ -120,12 +119,8 @@
 		       Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется
 		     </p>
 		   </li>
-		 </ul>
-	   </section>
-       <section class="sedona-info-item">
-	     <ul class="adventages-list">
            <li class="adventages-item background-1">
-		     <h3 class="adventages-title">небольшая<br>площадь</h3>
+		     <span class="adventages-title">небольшая<br>площадь</span>
 		     <span class="advantages-number">
 		       — №3 —
 		     </span>
@@ -134,7 +129,7 @@
 		     </p>
 		   </li>
            <li class="adventages-item background-2">
-		     <h3 class="adventages-title">красивая<br>дорога</h3>
+		     <span class="adventages-title">красивая<br>дорога</span>
 		     <span class="advantages-number">
 		       — №4 —
 		     </span>
@@ -143,7 +138,7 @@
 		     </p>
 		   </li>
            <li class="adventages-item background-1">
-		     <h3 class="adventages-title">мало<br>туристов</h3>
+		     <span class="adventages-title">мало<br>туристов</span>
 		     <span class="advantages-number">
 		       — №5 —
 		     </span>
@@ -153,6 +148,8 @@
 		   </li>
 	     </ul>
 	   </section>
+	</article> 
+	
 	 <section class="hotels">
 	    <h2 class="visuality-hidden">Гостиницы</h2>
 		<span class="hotels-title upper-text">заинтересовались?<br></span>
@@ -163,17 +160,15 @@
       </section>
       <section class="mailing">
 	    <h2 class="visuality-hidden">Предложение рассылки</h2>
-	    <h2 class="visuality-hidden">рассылка</h2>
 		<span class="upper-text">подпишитесь на рассылку</span>
-		<span class="bottom-text-mailing">
+		<p class="bottom-text-mailing">
 		  Только полезная информация и никакого спама,<br>честное бойскаутское!
-        </span>
+        </p>
 		  <form class="e-mail" action="https://echo.htmlacademy,ru/" method="post">
 		    <input type="email" name="mail" placeholder="Ваш e-mail">
 			<button class="button button-mailing" type="submit">подписаться</button>
 		  </form>
       </section>
-	</article>  
 	  
 	</main>
 	
