@@ -77,14 +77,8 @@ ul {
 }
 .navigation {
 	display: flex;
-	width: 310px;
-	margin-left: 71px;
-}
-.navigation-user {
-	display: flex;
-	width: 252px;
-	margin-right: 72px;
-
+	width: 1200px;
+	margin: 0 auto;
 }
 .navigation-link {
 	font-size: 20px;
