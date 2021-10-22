@@ -45,8 +45,11 @@ body {
   line-height: 24px;
   color: #242424;
   background-color: #E5E5E5;
-  width: 1280px;
-  margin: 0 auto;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	outline: 5px solid green;
 }
 .button {
 	color: #ffffff;
@@ -77,8 +80,19 @@ ul {
 }
 .navigation {
 	display: flex;
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
+	outline: 1px solid red;
+	box-sizing: border-box;
+}
+.navigation-list {
+	width: 310px;
+	margin: 0;
+	padding: 0;
+}
+.navigation-user {
+	width: 310px;
+	margin-left: auto;
 }
 .navigation-link {
 	font-size: 20px;
@@ -86,6 +100,10 @@ ul {
 	font-weight: 700;
 	color: inherit;
 	text-decoration: none;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
 }
 
 /*main-index*/
