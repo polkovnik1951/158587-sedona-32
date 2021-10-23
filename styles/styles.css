@@ -107,6 +107,18 @@ ul {
 }
 
 /*main-index*/
+.invitation {
+	display: block;
+	margin: 0 auto;
+}
+.end {
+	margin-top: 97px;
+}
+.article-header {
+	background-color: #ffffff;
+	color: #000000;
+}
+
 .index,
  .page-footer {
 	background-color: #ffffff;
@@ -146,9 +158,15 @@ ul {
 .background-2 {
 	background-color: rgba(131, 179, 211, 0.2);
 }
-.advantages-item {
+.sedona-info-item {
 	font-size: 18px;
 	line-height: 21px;
+}
+.sedona-info-list {
+	width: 400px;
+}
+.hotels {
+	background-color: #ffffff;
 }
 
 /*вторая страницв    -  гостиницы*/
@@ -197,10 +215,21 @@ ul {
 }
 
 /*футер*/
+
+.page-footer {
+	display: flex;
+	margin: 0 auto;
+	outline: 1px solid red;
+	box-sizing: border-box;
+}
+
 .footer-contacts-phonee {
 	font-size: 40px;
 	line-height: 40px;
 	font-style: normal;
+}
+.contact-tel {
+	color: #000000;
 }
 .breadrumbs-text {
 	font-size: 16px;
