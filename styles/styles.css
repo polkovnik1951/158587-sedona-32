@@ -215,6 +215,9 @@ ul {
 }
 
 /*main-hotels*/
+.main-hotels {
+	background-color: #ffffff;
+}
 .choice {
 	color: #ffffff;
 	background-image: url("../images/hotels-background.jpg");
