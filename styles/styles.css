@@ -46,6 +46,16 @@ body {
   color: #242424;
   background-color: #E5E5E5;
 }
+.visuality-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
@@ -72,7 +82,7 @@ body {
 	background-color: #83B3D3;
 }
 ul {
-	list-style: none;
+	list-style: none;/*это пока временно*/
 }
 /*хедер*/
 .page-header  {
@@ -82,17 +92,19 @@ ul {
 	display: flex;
 	max-width: 1200px;
 	margin: 0 auto;
-	outline: 1px solid red;
-	box-sizing: border-box;
 }
 .navigation-list {
 	width: 310px;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	padding-top: 19px;
+	padding-bottom: 20px;
+	margin-left: 71px;
 }
 .navigation-user {
 	width: 310px;
-	margin-left: auto;
+	margin-right: 72px;
 }
 .navigation-link {
 	font-size: 20px;
@@ -103,7 +115,7 @@ ul {
 }
 .logo {
 	display: block;
-	margin: 0 auto;
+	margin-left: 151px;
 }
 
 /*main-index*/
