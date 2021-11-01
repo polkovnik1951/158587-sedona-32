@@ -156,10 +156,8 @@ ul {
 }
 .invitation-to-sedona {
 	width:1200px;
-	height: 485px;
-	background-color: green;
+	padding-top: 51px;
 	background-image: url("../images/welcome-background.jpg");
-	background-color: green;
 	background-size: 1200px 485px;
 	background-repeat: no-repeat;
 }
@@ -171,11 +169,11 @@ ul {
 }
 
 .invitation-to-sedona img:nth-child(3) {
-	margin-bottom: 83px;
+	margin-bottom: 53px;
 }
 
 .invitation-to-sedona img:last-child {
-	margin-top: 57px;
+	margin-top: 25px;
 }
 
 .article-header {
@@ -189,6 +187,10 @@ ul {
 	text-align: center;
 }
 /*преимущества*/
+.sedona-info-list {
+	width: 400px;
+	outline: 1px solid red;
+}
 .with-foto	{
 	color: #ffffff;
 	background-color: #83B3D3;
