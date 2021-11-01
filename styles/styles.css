@@ -75,6 +75,16 @@ body {
 	font-size: 20px;
 	line-height: 36px;
 	background-color: #756257;
+	display: block;
+	width: 575px;
+	height: 30px;
+	padding-top: 13px;
+	padding-bottom: 17px;
+	margin: 0 auto;
+	margin-top: 86px;
+	text-decoration: none;
+	border-radius: 10px;
+	
 }
 .button-mailing {
 	font-size: 20px;
@@ -104,7 +114,7 @@ ul {
 }
 .navigation-user {
 	width: 310px;
-	margin-right: 72px;
+	margin-right: 72px; /*Почему то не реагирует*/
 }
 .navigation-link {
 	font-size: 20px;
@@ -126,6 +136,8 @@ ul {
 .article-header {
 	background-color: #ffffff;
 	color: #000000;
+	padding-bottom: 79px;/*? нет реакции*/
+	padding-top: 63px;/*? нет реакции*/
 }
 
 .index,
@@ -164,7 +176,6 @@ ul {
 
 .invitation-to-sedona img:last-child {
 	margin-top: 57px;
-	outline: 2px solid red;
 }
 
 .article-header {
@@ -197,6 +208,8 @@ ul {
 }
 .hotels {
 	background-color: #ffffff;
+	padding-top: 91px;
+	padding-bottom: 108px;
 }
 
 /*вторая страницв    -  гостиницы*/
