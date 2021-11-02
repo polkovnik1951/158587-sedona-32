@@ -181,17 +181,24 @@ ul {
 .invitation-to-sedona img:last-child {
 	margin-top: 25px;
 }
-
+.sedona-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sedona-info-list {
+	padding: 0;
+	margin: 0;
+}
+i.img-main {
+	display: block;
+}
+.sedona,
 .sedona-info,
 .hotels,
 .mailing {
 	text-align: center;
 }
 /*преимущества*/
-.sedona-info-list {
-	width: 400px;
-	outline: 1px solid red;
-}
 .with-foto	{
 	color: #ffffff;
 	background-color: #83B3D3;
@@ -203,11 +210,21 @@ ul {
 	background-color: rgba(131, 179, 211, 0.2);
 }
 .sedona-info-item {
+	width: 400px;
+	padding-top: 98px;
+	padding-bottom: 62px;
+	outline: 1px solid red;
+}
+.sedona-info-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+.sedona-info-description, 
+.advantages-number {
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
-}
-.sedona-info-list {
-	width: 400px;
 }
 .hotels {
 	background-color: #ffffff;
