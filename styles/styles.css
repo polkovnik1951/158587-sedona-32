@@ -113,10 +113,16 @@ ul {
 	margin-left: 71px;
 }
 .navigation-user {
-	width: 310px;
-	margin-right: 72px; /*Почему то не реагирует*/
+	width: 275px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding-top: 23px;
+	padding-bottom: 24px;
+	margin-right: 72px;/*всё равно реакции нет*/
 }
-.navigation-link {
+.navigation-link {  /* на эти стили нет реакции??! */         
+	display: block;
 	font-size: 20px;
 	line-height: 26px;
 	font-weight: 700;
@@ -136,8 +142,8 @@ ul {
 .article-header {
 	background-color: #ffffff;
 	color: #000000;
-	padding-bottom: 79px;/*? нет реакции*/
-	padding-top: 63px;/*? нет реакции*/
+	padding-bottom: 79px;
+	padding-top: 63px;
 }
 
 .index,
@@ -174,11 +180,6 @@ ul {
 
 .invitation-to-sedona img:last-child {
 	margin-top: 25px;
-}
-
-.article-header {
-	padding-top: 63px;
-	padding-bottom: 79px;
 }
 
 .sedona-info,
