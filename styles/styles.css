@@ -43,8 +43,8 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #242424;
-  background-color: #E5E5E5;
+  color: #333333;
+  background-color: #E5E5E5; /*разобраться с думя волосами и с градиентом! */
 }
 .visuality-hidden {
 	position: absolute;
@@ -59,7 +59,7 @@ body {
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
-	outline: 5px solid green;
+	outline: 1px solid green; /*временно*/
 }
 .button {
 	color: #ffffff;
@@ -67,9 +67,14 @@ body {
 	font-weight: 700;
 }
 .button-nav {
+	width: 160px;
+	height:18px;
 	font-size: 21px;
 	line-height: 21px;
 	background-color: #756257;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px 22px;;
 	}
 .button-hotels {
 	font-size: 20px;
@@ -100,8 +105,7 @@ ul {
 }
 .navigation {
 	display: flex;
-	max-width: 1200px;
-	margin: 0 auto;
+	justify-content: space-between;
 }
 .navigation-list {
 	width: 310px;
@@ -112,6 +116,12 @@ ul {
 	padding-bottom: 20px;
 	margin-left: 71px;
 }
+.navigation-item {
+	margin-right: 33px;
+}
+.navigation-item-user {
+	margin-left: 24px;
+}
 .navigation-user {
 	width: 275px;
 	margin: 0;
@@ -119,9 +129,9 @@ ul {
 	display: flex;
 	padding-top: 23px;
 	padding-bottom: 24px;
-	margin-right: 72px;/*всё равно реакции нет*/
+	margin-right: 72px;
 }
-.navigation-link {  /* на эти стили нет реакции??! */         
+.navigation-link {          
 	display: block;
 	font-size: 20px;
 	line-height: 26px;
@@ -131,7 +141,7 @@ ul {
 }
 .logo {
 	display: block;
-	margin-left: 151px;
+	margin: 0 auto;
 }
 
 /*main-index*/
@@ -185,6 +195,28 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
 }
+.sedona-info ul:nth-child(1),
+.sedona-info ul:nth-child(7) {
+	color: #ffffff;
+	background-color: #83B3D3;
+}
+.sedona-info ul:nth-child(4) {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.sedona-info ul:nth-child(3),
+.sedona-info ul:nth-child(5),
+.sedona-info ul:nth-child(8), 
+.sedona-info ul:nth-child(10) {
+	color: #000000;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+.sedona-info ul:nth-child(9) {
+	color: #000000;
+	background-color: rgba(131, 179, 211, 0.2);
+}
+
 .sedona-info-list {
 	padding: 0;
 	margin: 0;
@@ -199,20 +231,10 @@ i.img-main {
 	text-align: center;
 }
 /*преимущества*/
-.with-foto	{
-	color: #ffffff;
-	background-color: #83B3D3;
-}
-.background-1 {
-	background-color: rgba(131, 179, 211, 0.12);
-}
-.background-2 {
-	background-color: rgba(131, 179, 211, 0.2);
-}
 .sedona-info-item {
 	width: 400px;
 	padding-top: 98px;
-	padding-bottom: 62px;
+	padding-bottom: 62px; /*тут помаеету д быть 77, но при этом ломается???*/
 	outline: 1px solid red;
 }
 .sedona-info-title {
@@ -230,6 +252,10 @@ i.img-main {
 	background-color: #ffffff;
 	padding-top: 91px;
 	padding-bottom: 108px;
+}
+.mailing {
+	padding: 94px 0;
+	color: #ffffff;
 }
 
 /*вторая страницв    -  гостиницы*/
@@ -284,19 +310,37 @@ i.img-main {
 
 .page-footer {
 	display: flex;
-	margin: 0 auto;
-	outline: 1px solid red;
-	box-sizing: border-box;
+	justify-content: space-between;
+	padding-left: 72px;
+	padding-right: 72px;
+}
+.footer-social-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	padding-top: 50px;
+	
+}
+.footer-social-item {
+	margin-right: 53px;
 }
 
 .footer-contacts-phonee {
 	font-size: 40px;
 	line-height: 40px;
 	font-style: normal;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-right: 82px;
 }
 .contact-tel {
 	color: #000000;
 }
+.htmlacademy-link {
+	display: block;
+	padding-top: 43px;
+}
+
 .breadrumbs-text {
 	font-size: 16px;
 	line-height: 21px;
