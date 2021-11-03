@@ -92,9 +92,13 @@ body {
 	
 }
 .button-mailing {
+	width: 200px;
+	height: 60px;
 	font-size: 20px;
 	line-height: 26px;
 	background-color: #83B3D3;
+	border-radius: 0 10px 10px 0;
+	
 }
 ul {
 	list-style: none;/*это пока временно*/
@@ -253,9 +257,15 @@ i.img-main {
 	padding-top: 91px;
 	padding-bottom: 108px;
 }
-.mailing {
-	padding: 94px 0;
+.email {
+	width: 800px;
+	height: 60px;
+	padding-left: 22px;
+	font-size: 18px;
+	line-height: 26px;
 	color: #ffffff;
+	background-color: #F2F2F2;
+	border-radius: 10px 0 0 10px;
 }
 
 /*вторая страницв    -  гостиницы*/
@@ -280,6 +290,8 @@ i.img-main {
 	color: #ffffff;
 }
 .mailing {
+	padding: 94px 0;
+	color: #ffffff;
 	background-image: url("../images/nature.jpg");
 	background-size: 1200px auto;
 	background-repeat: no-repeat;
@@ -299,6 +311,7 @@ i.img-main {
 	font-size: 60px;
 	line-height: 77px;
 	font-weight: 700;
+	text-align: center;
 }
 .breadrumbs-link {
 	font-size: 16px;
