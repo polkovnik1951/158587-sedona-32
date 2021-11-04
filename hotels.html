@@ -75,7 +75,7 @@
 		<section class="choice-user">
 		 <h2 class="visuality-hidden">Выбор по параметрам</h2>
 		 <form class="choise-hotels" action="https://echo.htmlacademy,ru/" method="post">
-		  <fieldset>
+		  <fieldset class="form-part">
 		    <legend>Инфраструктура:</legend>
 			  <label>
 			    <input type="checkbox" name="swimming" checked>Бассейн
@@ -87,7 +87,7 @@
 			    <input type="checkbox" name="wi-fi">Wi-Fi
 			  </label>
 		  </fieldset>
-		  <fieldset>
+		  <fieldset class="form-part">
 		    <legend>Тип жилья:</legend>
 			  <label>
 			    <input type="radio" name="housing" value="hotel" checked>Гостиница
@@ -99,14 +99,16 @@
 			    <input type="radio" name="housing" value="apartments">Апартаменты
 			  </label>
 		  </fieldset>
-		  <fieldset>
+		  <fieldset class="form-part-coste">
 		    <legend>Стоимость, ₽:</legend>
-			  <input type="number" name="min-price" placeholder="0">
-			  <input type="number" name="max-price" placeholder="900">
+			  <input class="number" type="number" name="min-price" placeholder="0">
+			  <input class="number" type="number" name="max-price" placeholder="900">
+		  </fieldset>	  
 			  <input type="range" min="0" max="900" name="price">
-		  </fieldset>
-		  <button class="button" type="submit">Применить</button> 
+		  <section class="submit-reset">
+		  <button class="button button-mailing" type="submit">Применить</button> 
 		  <button class="reset" type="submit">Сбросить</button> 
+		  </section>
 		 </form>
 	  </section>	
 	</section>

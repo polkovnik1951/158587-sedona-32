@@ -46,6 +46,10 @@ body {
   color: #333333;
   background-color: #E5E5E5; /*разобраться с думя волосами и с градиентом! */
 }
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
 .visuality-hidden {
 	position: absolute;
 	width: 1px;
@@ -306,17 +310,59 @@ i.img-main {
 	background-image: url("../images/hotels-background.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	padding-left: 71px;
+	padding-top: 35px;
+	padding-bottom: 83px;
+	outline: 2px solid red;
+}
+.choise-hotels {
+	display: flex;
+}
+.form-part {
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+.form-part legend {
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 30px;
+}
+.form-part-coste legend {
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 30px;
+}
+.form-part-coste {
+	display: flex;
+	border: none;
+}
+.number {                            
+	opacity: 0.5;
+	border: 2px solid #ffffff; /*нет реакции!!!*/
+	color: #ffffff; /*нет реакции!!!*/
+}
+.submit-reset {
+	display: flex;
+	flex-direction: column;
 }
 .page-title-hotels {
 	font-size: 60px;
 	line-height: 77px;
 	font-weight: 700;
-	text-align: center;
+}
+.breadrumbs {
+	display: flex;
+	margin: 0;
+	padding: 0;
 }
 .breadrumbs-link {
 	font-size: 16px;
 	line-height: 21px;
 	color: inherit;
+}
+.breadrumbs-to-index {
+	margin-right: 10px;
 }
 
 /*футер*/
