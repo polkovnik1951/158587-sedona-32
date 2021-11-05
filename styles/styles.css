@@ -69,6 +69,7 @@ h1, h2, h3 {
 	color: #ffffff;
 	background-color: #756257;
 	font-weight: 700;
+	border: none;
 }
 .button-nav {
 	width: 160px;
@@ -102,7 +103,7 @@ h1, h2, h3 {
 	line-height: 26px;
 	background-color: #83B3D3;
 	border-radius: 0 10px 10px 0;
-	
+	padding-bottom: 3px;
 }
 ul {
 	list-style: none;/*это пока временно*/
@@ -263,13 +264,16 @@ i.img-main {
 }
 .email {
 	width: 800px;
-	height: 60px;
+	height: 60px;   
 	padding-left: 22px;
+	padding-bottom: 0;
 	font-size: 18px;
 	line-height: 26px;
 	color: #ffffff;
 	background-color: #F2F2F2;
 	border-radius: 10px 0 0 10px;
+	margin-right: -6px;
+	border: none;
 }
 
 /*вторая страницв    -  гостиницы*/
@@ -364,7 +368,15 @@ i.img-main {
 .breadrumbs-to-index {
 	margin-right: 10px;
 }
-
+.mailing-hotels {
+	outline: 2px solid red;/*временно*/
+	background-color: #ffffff;
+	background-image: none;
+	color: #000000;
+}
+.bottom-text-mailing-hotels {
+	color: #000000;
+}
 /*футер*/
 
 .page-footer {
