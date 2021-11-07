@@ -377,6 +377,21 @@ i.img-main {
 .bottom-text-mailing-hotels {
 	color: #000000;
 }
+.selected {
+	padding-left: 71px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.selected-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 39px;
+	margin-right: 211px;
+}
+.selected-housing {
+	outline: 1px solid red;
+	margin: 31px; 72px;
+}
 /*футер*/
 
 .page-footer {
