@@ -152,6 +152,16 @@ ul {
 	display: block;
 	margin: 0 auto;
 }
+.favorites::after {   /*Не работает !*/
+	content: "";
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+	background-color: #7db54f;
+	position: absolute;
+	left: 929px;
+	top: 14px;
+}
 
 /*main-index*/
 .invitation {
@@ -390,7 +400,7 @@ i.img-main {
 }
 .selected-housing {
 	outline: 1px solid red;
-	margin: 31px; 72px;
+	margin: 31px;
 }
 /*футер*/
 
