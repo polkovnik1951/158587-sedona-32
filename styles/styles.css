@@ -153,15 +153,20 @@ ul {
 	display: block;
 	margin: 0 auto;
 }
-.favorites::after {   /*Не работает !*/
-	content: "";
+.button-nav::after {   
+	content: "12";
 	width: 19px;
 	height: 19px;
 	border-radius: 50%;
 	background-color: #7db54f;
+	font-size: 10px;
+	line-height: 13px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
 	position: absolute;
-	left: 929px;
-	top: 14px;
+	right: 390px;
+	top: 17px;
 }
 
 /*main-index*/
@@ -219,6 +224,7 @@ ul {
 .sedona-info ul:nth-child(7) {
 	color: #ffffff;
 	background-color: #83B3D3;
+	height: 384px;
 }
 .sedona-info ul:nth-child(4) {
 	color: #000000;
@@ -254,13 +260,13 @@ i.img-main {
 .sedona-info-item {
 	width: 400px;
 	padding-top: 98px;
-	padding-bottom: 62px; /*тут по макету д быть 77, но при этом ломается???*/
-	outline: 1px solid red;
+	padding-bottom: 77px; 
 }
 .sedona-info-title {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
+	padding-bottom: 25px;
 }
 .sedona-info-description, 
 .advantages-number {
